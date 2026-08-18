@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 50px;
+}
+
+.key {
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
