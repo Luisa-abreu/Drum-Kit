@@ -6,7 +6,6 @@
 
 body {
   font-family: "Black Ops One", system-ui;
-  font-weight: 400;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -25,7 +24,19 @@ body {
   height: 150px;
   border-radius: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fff;
+  transition: all 0.2s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ccc;
+}
+
+.key span {
+  display: block;
+  font-size: 16px;
 }
