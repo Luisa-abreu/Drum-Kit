@@ -8,7 +8,7 @@ Esse projeto foi feito como prática de manipulação do DOM, eventos de teclado
 
 ## Demo
 
-🔗 [Ver demo ao vivo]((https://drum-kit-chi.vercel.app/))
+🔗 [Ver demo ao vivo](https://drum-kit-chi.vercel.app/)
 
 Ou rode localmente: abra o `index.html` no navegador e comece a tocar!
 
